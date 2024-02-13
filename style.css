@@ -96,3 +96,26 @@ nav .container {
     justify-content: center;
     gap: 3px;
 }
+
+/* media */
+
+@media (max-width:576px) {
+    .img {
+        width: 516px;
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .img {
+        width: 516px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .img {
+        width: 328px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .img {
+        width: 448px;
+    }
+}
