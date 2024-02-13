@@ -1,0 +1,98 @@
+/* header */
+
+header {
+    background-color: lightgray;
+    padding: 5px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+.right a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    gap: 5px;
+}
+.right a:hover {
+    color: darkgray;
+}
+
+/* navbar */
+
+nav .container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two {
+    display: flex;
+    gap: 20px;
+}
+.two a {
+    text-decoration: none;
+    color: gray;
+}
+.search {
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.sea {
+    color: darkgray;
+}
+.three {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* carusel cell */
+
+.carusel {
+    padding: 15px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+.carusel .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.str {
+    font-size: 25px;
+    color: gray;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: default;
+}
+.str:hover {
+    background-color: darkgray;
+}
+.a {
+    color: darkgray;
+    transition: 0.5s;
+}
+.a:hover {
+    text-decoration-color: black;
+}
+
+/* content */
+
+.minicont {
+    display: flex;
+    gap: 10px;
+}
+.sold {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
